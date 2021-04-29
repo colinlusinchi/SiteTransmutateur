@@ -51,6 +51,31 @@
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
   }
+  div.titleimg {
+    width:calc(100% - 20px);
+    height:calc(80% - 20px);
+    position: fixed;
+    padding-left:5%;
+    padding-right: 10%;
+  }
+  div.paragraphe {
+    width:calc(100% - 20px);
+    height:calc(100% - 20px);
+    position: fixed;
+    width: 50%;
+    right: 6%;
+    
+  }
+
+  img#premiere {
+    width:calc(30% - 20px);
+    height:calc(80% - 20px);
+    position:absolute;
+    padding-top: 1%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 100;
+  }
   ul {
     list-style-type: none;
   }
@@ -68,6 +93,24 @@
 margin-top:2%;
   }
   h1{
+    text-align: right;
     color: black;
     font-size: 3em;
+    margin-right: 10%;
   }
+
+  h2.subtitle {
+    text-align: right;
+    color: black;
+    text-align: right;
+    font-size: 2em;
+    background-size: contain;
+    background-color:#FFEB69;
+  }
+
+  p {
+      font-family: "dosisregular", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+      color: black; font-size: 1.2em;}
+  petit {
+      font-family: "dosisregular", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+      color: black; opacity: 0.8; font-size: 0.9em;}
