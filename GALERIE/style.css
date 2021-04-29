@@ -1,19 +1,65 @@
 
-div {
-  display: none;
-  width:calc(50% - 20px);
-  height:calc(80% - 20px);
-  background-color: green;
-  position:absolute;
-  top:10%;
-  bottom:10%;
-  left:33%;
-}
+/* FONTS*/
+  @font-face {
+      font-family: 'dosisbold';
+      src: url('../font/dosis-bold-webfont.woff2') format('woff2'),
+           url('../font/dosis-bold-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
 
-li:hover div{
-  display: block;
-}
+  @font-face {
+      font-family: 'dosisbold';
+      src: url('../font/Dosis-Bold.otf') format('otf'),
+      font-weight: normal;
+      font-style: normal;
+  }
 
-body {
-	background-color: #FFEB69;
-	}
+
+  @font-face {
+      font-family: 'dosisregular';
+      src: url('../font/dosis-regular-webfont.woff2') format('woff2'),
+           url('../font/dosis-regular-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
+
+  @font-face {
+      font-family: 'dosisregular';
+      src: url('../font/Dosis-Regular.otf') format('otf'),
+      font-weight: normal;
+      font-style: normal;
+  }
+
+/* --------------------------------------------- B O D Y -------------------------------------------------*/
+  body {
+  	font-family: "dosisbold", "dosisregular", Helvetica, Arial, sans-serif;
+    background-color: #FFEB69;
+  }
+
+  div {
+    display: none;
+    width:calc(50% - 20px);
+    height:calc(80% - 20px);
+    background-color: green;
+    position:absolute;
+    top:10%;
+    bottom:10%;
+    left:33%;
+  }
+  ul {
+    list-style-type: none;
+  }
+  a:link {
+   text-decoration:none;
+  }
+  .liste{
+    color: black;
+    font-size: 3em;
+  }
+  li:hover div{
+    display: block;
+  }
+  li{
+margin-top:2%;
+  }
