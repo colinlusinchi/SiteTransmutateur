@@ -1,0 +1,19 @@
+
+div {
+  display: none;
+  width:calc(50% - 20px);
+  height:calc(80% - 20px);
+  background-color: green;
+  position:absolute;
+  top:10%;
+  bottom:10%;
+  left:33%;
+}
+
+li:hover div{
+  display: block;
+}
+
+body {
+	background-color: #FFEB69;
+	}
