@@ -1,6 +1,6 @@
-# SiteTransmutateur
+# Site de l'association le Transmutateur
 
-site du transmut
+En cours de construction
 
 Preview : https://colinlusinchi.github.io/SiteTransmutateur/
 
