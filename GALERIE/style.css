@@ -35,7 +35,7 @@
   body {
   	font-family: "dosisbold", "dosisregular", Helvetica, Arial, sans-serif;
     background-color: white;
-    height: 2000px;
+    height: ;
     width: auto;
   }
 
@@ -57,7 +57,7 @@
     position: relative;
     left:55%;
     text-align: left;
-    padding-right: 5%;
+    padding-right: 20%;
 
   }
   div.paragraphe {
@@ -166,7 +166,10 @@ margin-top:2%;
     max-width: 50%;
   }
 }
+body {
+  background-color:;
 
+}
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
@@ -174,26 +177,14 @@ margin-top:2%;
     flex: 100%;
     max-width: 100%;
   }
+  body {
+    background-color:;
+  }
+  img#premiere { left: 20%;
+  }
+  div.titleimg {
+    padding-right: 10%;
+  }
+
 }
 =======
-      /* On screens that are 992px or less, set the background color to blue */
-      @media screen and (max-width: 992px) {
-        body {
-          background-color:;
-
-        }
-      }
-
-      /* On screens that are 600px or less, set the background color to olive */
-      @media screen and (max-width: 600px) {
-        body {
-          background-color:;
-        }
-        img#premiere { left: 20%;
-        }
-        div.titleimg {
-          padding-right: 1%;
-        }
-
-      }
->>>>>>> 90d9c1ca93c9fdab5babb33d584c4e5ebfa14bc3
