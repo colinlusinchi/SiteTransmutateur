@@ -86,13 +86,13 @@
   }
   .liste{
     color: black;
-    font-size: 3em;
+    font-size: 1.5em;
   }
   li:hover div{
     display: block;
   }
   li{
-margin-top:2%;
+margin-top:1%;
   }
   h1{
     text-align: right;
