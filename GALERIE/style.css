@@ -73,7 +73,7 @@
     position:absolute;
     padding-top: 1%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     z-index: 100;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
@@ -86,13 +86,13 @@
   }
   .liste{
     color: black;
-    font-size: 1.5em;
+    font-size: 3em;
   }
   li:hover div{
     display: block;
   }
   li{
-margin-top:1%;
+margin-top:2%;
   }
   h1{
     text-align: right;
