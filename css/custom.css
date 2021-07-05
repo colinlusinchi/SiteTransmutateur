@@ -290,8 +290,8 @@ background-image: url(../img/facebook.jpg);}
   width: 100%;
 }
 
-video { 
- position: no-repeat fixed center; 
+video {
+ position: no-repeat fixed center;
    min-width: 100%;
     max-height: 600px;
     top: 10%;
