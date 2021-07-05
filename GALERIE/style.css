@@ -64,7 +64,7 @@
     position: fixed;
     width: 50%;
     right: 6%;
-    
+
   }
 
   img#premiere {
@@ -75,6 +75,8 @@
     background-repeat: no-repeat;
     background-size: contain;
     z-index: 100;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
   }
   ul {
     list-style-type: none;
