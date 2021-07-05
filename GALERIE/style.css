@@ -73,7 +73,7 @@
     position:absolute;
     padding-top: 1%;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     z-index: 100;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
