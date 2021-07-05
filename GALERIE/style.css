@@ -34,7 +34,9 @@
 /* --------------------------------------------- B O D Y -------------------------------------------------*/
   body {
   	font-family: "dosisbold", "dosisregular", Helvetica, Arial, sans-serif;
-    background-color: #FFEB69;
+    background-color: white;
+    height: 2000px;
+    width: auto;
   }
 
   div.gallery-item {
@@ -52,25 +54,26 @@
     filter: grayscale(100%);
   }
   div.titleimg {
-    width:calc(100% - 20px);
-    height:calc(80% - 20px);
-    position: fixed;
-    padding-left:5%;
-    padding-right: 10%;
+    position: relative;
+    left:55%;
+    text-align: left;
+    padding-right: 5%;
+
   }
   div.paragraphe {
     width:calc(100% - 20px);
     height:calc(100% - 20px);
-    position: fixed;
-    width: 50%;
-    right: 6%;
+    position: relative;
+    top: 20%;
 
+    width: 50%;
   }
 
   img#premiere {
-    width:calc(30% - 20px);
-    height:calc(80% - 20px);
+    width:calc(30% - 10px);
     position:absolute;
+    left: 15%;
+    margin-left: auto;
     padding-top: 1%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -94,17 +97,18 @@
   li{
 margin-top:2%;
   }
-  h1{
-    text-align: right;
+  h1.title{
+    text-align: left;
     color: black;
+
+    background-size: contain;
     font-size: 3em;
-    margin-right: 10%;
+    background-color:#FFEB59;
   }
 
   h2.subtitle {
-    text-align: right;
     color: black;
-    text-align: right;
+    text-align: left;
     font-size: 2em;
     background-size: contain;
     background-color:#FFEB69;
@@ -118,6 +122,7 @@ margin-top:2%;
       color: black; opacity: 0.8; font-size: 0.9em;}
 
 
+<<<<<<< HEAD
 
 
       .header {
@@ -170,3 +175,25 @@ margin-top:2%;
     max-width: 100%;
   }
 }
+=======
+      /* On screens that are 992px or less, set the background color to blue */
+      @media screen and (max-width: 992px) {
+        body {
+          background-color:;
+
+        }
+      }
+
+      /* On screens that are 600px or less, set the background color to olive */
+      @media screen and (max-width: 600px) {
+        body {
+          background-color:;
+        }
+        img#premiere { left: 20%;
+        }
+        div.titleimg {
+          padding-right: 1%;
+        }
+
+      }
+>>>>>>> 90d9c1ca93c9fdab5babb33d584c4e5ebfa14bc3
