@@ -35,8 +35,7 @@
   body {
   	font-family: "dosisbold", "dosisregular", Helvetica, Arial, sans-serif;
     background-color: white;
-    height: ;
-    width: auto;
+
   }
 
   div.gallery-item {
@@ -122,21 +121,11 @@ margin-top:2%;
       color: black; opacity: 0.8; font-size: 0.9em;}
 
 
-<<<<<<< HEAD
-
-
-      .header {
-
-  padding: 32px;
-}
-
-
-
-
 
       /* --------------------------------------GRILLE D'IMAGE-----------------------------*/
 
       .row {
+  position: absolute;
   display: -ms-flexbox; /* IE10 */
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
@@ -146,30 +135,74 @@ margin-top:2%;
 
 /* Create four equal columns that sits next to each other */
 .column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 25%;
+  -ms-flex: 24%; /* IE10 */
+  flex: 24%;
+  max-width: 24%;
   padding: 0 4px;
 }
-
-.column img {
+.column div {
+  background-color: yellow;
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-body {
-  background-color:;
+.column img {
+
+  vertical-align: middle;
+  width: 100%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: 0.6s ease-in-out;
+	transition: 0.6s ease-in-out;
+  z-index: 1;
 
 }
+
+.textblock a {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 0;
+  position: absolute;
+  padding-top: 100px;
+ padding-left: 100px;
+  opacity: 1;
+  transition: opacity 0.5s;
+  color: black;
+
+  /* position the text in t’ middle*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column img:hover, .column img:focus, .colomn img:active {
+  -webkit-filter: opacity(0.3);
+  filter: opacity(0.3);
+}
+.image :hover + .textblock a {
+  z-index: 2;
+}
+
+/* Responsive layout - makes a three column-layout instead of four columns */
+@media screen and (max-width: 1200px) {
+  .column {
+    -ms-flex: 32%;
+    flex: 32%;
+    max-width: 32%;
+  }
+}
+
+/* Responsive layout - makes a two column-layout instead of three columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 48%;
+    flex: 48%;
+    max-width: 48%;
+  }
+}
+
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
@@ -177,14 +210,9 @@ body {
     flex: 100%;
     max-width: 100%;
   }
-  body {
-    background-color:;
-  }
-  img#premiere { left: 20%;
-  }
-  div.titleimg {
-    padding-right: 10%;
-  }
+
+
 
 }
 =======
+/* Légende img et effets */
